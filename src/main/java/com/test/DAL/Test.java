@@ -11,5 +11,6 @@ public class Test {
         System.out.println(age);
         Hello hello = new Hello();
         hello.helloWorld(c);
+        System.out.println("第二个版本了");
     }
 }
