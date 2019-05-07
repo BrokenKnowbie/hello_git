@@ -12,5 +12,7 @@ public class Test {
         Hello hello = new Hello();
         hello.helloWorld(c);
         System.out.println("第二个版本了");
+        String s = null;
+
     }
 }

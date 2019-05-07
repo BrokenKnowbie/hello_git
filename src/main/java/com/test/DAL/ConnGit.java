@@ -1,11 +1,11 @@
 package com.test.DAL;
 
 public class ConnGit {
-    private String name;
-    private String cardId;
+    private String  name;
+    private String  cardId;
     private Integer age;
 
-    public ConnGit(String name){
+    ConnGit(String name){
         this.name = name;
     }
 
@@ -35,6 +35,6 @@ public class ConnGit {
 
     public void printName(){
         System.out.println(name);
-    }
 
+    }
 }

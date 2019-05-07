@@ -4,7 +4,7 @@
     <option name="projectSpecificProfile">
       <ProjectSpecificProfile>
         <option name="formatter" value="ECLIPSE" />
-        <option name="pathToConfigFileJava" value="C:/资料/办公/收单相关资料/规范/bestpayformat_idea/BestpayFormatter.xml" />
+        <option name="pathToConfigFileJava" value="D:/资料/办公/收单相关资料/规范/bestpayformat_idea/BestpayFormatter.xml" />
         <option name="selectedJavaProfile" value="Bestpay Convention" />
       </ProjectSpecificProfile>
     </option>
