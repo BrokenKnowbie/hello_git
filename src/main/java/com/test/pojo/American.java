@@ -10,16 +10,17 @@ import com.test.DAO.Plant;
 
 /**
  * @author liu_bei
- * @version Id: Chinese.java, v 0.1 2019/5/5 10:31 liu_bei Exp $$
+ * @version Id: American.java, v 0.1 2019/5/7 11:02 liu_bei Exp $$
  */
-public class Chinese extends Humen {
-    public Chinese() {
-    }
+public class American extends Humen {
 
-    Chinese(String name) {
+
+    public American(){}
+
+    public American(String name){
         this.setName(name);
-        this.setSTR(super.getSTR() + 5L);
-        this.setDEF(super.getDEF());
+        this.setSTR(super.getSTR());
+        this.setDEF(super.getDEF() + 2L);
         this.setHEALTH(super.getHEALTH());
     }
 
@@ -37,6 +38,6 @@ public class Chinese extends Humen {
 
     public void showInfo() {
         System.out.println(this.getName() + "{生命：" + this.getHEALTH() + ";攻击：" + this.getSTR()
-                           + ";防御：" + this.getDEF() + "}");
+                + ";防御：" + this.getDEF() + "}");
     }
 }
